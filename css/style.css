@@ -397,7 +397,7 @@ body {
       align-self: center;
 }
 
-.swiper-slide {
+.swiper-slide.gallery__slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -552,9 +552,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .person__image {
@@ -798,6 +798,12 @@ body {
         -ms-flex-pack: start;
             justify-content: start;
     margin-bottom: 30px;
+  }
+
+  .person__info {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 
   .footer__container {
